@@ -58,14 +58,14 @@ class PoliceCar(Car):
     pass
 
 
-town = TownCar('Audi', 70, 'blue', False)
+town = TownCar('Car_1', 70, 'blue', False)
 print('1:\n' + town.go(), town.show_speed(), town.turn('left'), town.turn('right'), town.stop())
 
-sport = SportCar('AudiRS', 170, 'red', False)
+sport = SportCar('Car_2', 130, 'white', False)
 print('2:\n' + sport.go(), sport.show_speed(), sport.turn('left'), sport.stop())
 
-work = WorkCar('WAZ', 30, 'red', False)
+work = WorkCar('Car_3', 34, 'red', False)
 print('3:\n' + work.go(), work.show_speed(), work.turn('right'), work.stop())
 
-police = PoliceCar('Kia', 100, 'yellow', True)
+police = PoliceCar('Car_4', 87, 'yellow', True)
 print('4:\n' + work.go(), work.show_speed(), work.turn('right'), work.stop())

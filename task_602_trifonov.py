@@ -17,8 +17,8 @@ class Road:
 
     def asphalt_mass(self):
         asphalt_mass = self._length * self._width * self.weight * self.height / 1000
-        print(f'Для покрытия всего дорожного полотна неободимо {round(asphalt_mass)} массы асфальта')
+        print(f'Для покрытия всего дорожного полотна нужно {round(asphalt_mass)} массы асфальта')
 
 
-r = Road(5000, 20)
-r.asphalt_mass()
+asphalt = Road(4200, 12)
+asphalt.asphalt_mass()

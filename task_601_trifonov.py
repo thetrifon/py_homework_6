@@ -23,5 +23,5 @@ class TrafficLight:
             i += 1
 
 
-t = TrafficLight()
-t.running()
+svetofor = TrafficLight()
+svetofor.running()
